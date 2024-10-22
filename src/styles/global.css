@@ -1,0 +1,208 @@
+:root {
+  --color-chip: #ebeff7;
+  --green-default: #008d4f;
+  --green-default-secondary: #11b83b;
+  --green-default-secondary-new: #2aea8b;
+  --gray-default: #8392ab;
+  --dark-default: #252f40;
+  --gray-secondary: #d9d9d9;
+  --white-default: #fff;
+  --white-background-icons: #fafafa;
+  --color-input-no-focus: #d2d6da;
+  --color-input-focus: #141414;
+  --gray-color-text: #67748e;
+  --gradient-color-pink: #ff0080;
+  --color-pink-main: #cb0c9f;
+  --color-pink-secondary: #ab2699;
+  --gradient-color-lilac: #7928ca;
+  --green-secondary: #82d616;
+  --color-green: #cdf59b;
+  --red-secondary: #ea0606;
+  --kanban-background: #f7f7f8;
+  --gray-background: #f9fafb;
+  --dark-blue: #3d5a80;
+  --dark-blue-main: #3a416f;
+  --dark-blue-secondary: #344767;
+  --color-gray-text-secondary: #718096;
+  --color-gray-text-main: #2d3748;
+  --dark-green: #008d4f;
+  --clean-green: #82d616;
+  --tw-ring-offset-width: #fff;
+
+  /* fonts */
+  --font-default: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --pink-focus-input: #e293d3;
+}
+
+*,
+*::before,
+*::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme("borderColor.DEFAULT", currentColor);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+#root {
+  isolation: isolate;
+}
+
+.nc-footer {
+  display: none !important;
+}
+
+/* Generated CSS for colors array */
+
+.event-00A76F,
+.event-00A76F:hover {
+  padding: 8px;
+  background-color: rgb(0, 167, 111, 0.3);
+  color: rgb(0, 167, 111);
+}
+
+.event-8E33FF,
+.event-8E33FF:hover {
+  padding: 8px;
+  background-color: rgb(142, 51, 255, 0.3);
+  color: rgb(142, 51, 255);
+}
+
+.event-00B8D9,
+.event-00B8D9:hover {
+  padding: 8px;
+  background-color: rgb(0, 184, 217, 0.3);
+  color: rgb(0, 184, 217);
+}
+
+.event-003768,
+.event-003768:hover {
+  padding: 8px;
+  background-color: rgb(0, 55, 104, 0.3);
+  color: rgb(0, 55, 104);
+}
+
+.event-22C55E,
+.event-22C55E:hover {
+  padding: 8px;
+  background-color: rgb(34, 197, 94, 0.3);
+  color: rgb(34, 197, 94);
+}
+
+.event-FFAB00,
+.event-FFAB00:hover {
+  padding: 8px;
+  background-color: rgb(255, 171, 0, 0.3);
+  color: rgb(255, 171, 0);
+}
+
+.event-FF5630,
+.event-FF5630:hover {
+  padding: 8px;
+  background-color: rgb(255, 86, 48, 0.3);
+  color: rgb(255, 86, 48);
+}
+
+.event-7A0916,
+.event-7A0916:hover {
+  padding: 8px;
+  background-color: rgb(122, 9, 22, 0.3);
+  color: rgb(122, 9, 22);
+}
+
+.pastDate,
+.pastDate > .fc-daygrid-event-dot,
+.pastDate:hover {
+  background-color: rgba(200, 200, 200, 0.5) !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+  border: none;
+}
+
+.css-18nsheh::before {
+  background: linear-gradient(
+    0deg,
+    rgb(46, 195, 17) 0%,
+    rgb(36 221 47) 100%
+  ) !important;
+}
+
+.MuiFormHelperText-root {
+  margin-left: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* para scroll vertical */
+  height: 8px; /* para scroll horizontal */
+}
+
+/* Fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Color del "dedo" o la parte que se desplaza */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Color del "dedo" al pasar el mouse por encima */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Si quieres cambiar también la esquina cuando hay scroll vertical y horizontal */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}

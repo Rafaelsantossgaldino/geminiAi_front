@@ -1,0 +1,71 @@
+.containerGlobal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+  }
+  
+  .secondColumn .title01 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue";
+    font-weight: 300;
+    font-size: 70px;
+  }
+  
+  .title02 {
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue";
+    font-weight: 300;
+    font-size: 64px;
+    padding: 10px;
+    background: #11B83B;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .imageError404 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .description {
+    margin: 1em auto;
+    font-size: 32px;
+    font-family: Roboto, "Helvetica Neue";
+    font-weight: 200;
+  }
+  
+  @media only screen and (max-width: 1537px) {
+    .imageNotFound {
+        max-width: 90%;
+    }
+  
+    .title02 {
+        font-size: 52px;
+    }
+  }
+  
+  @media only screen and (max-width: 1421px) {
+    .title02 {
+        font-size: 42px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .imageNotFound {
+        display: none;
+    }
+  
+    .containerGlobal {
+        gap: 0;
+    }
+  }
